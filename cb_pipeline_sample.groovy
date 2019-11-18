@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('hello buildtriger'){
 			steps{
-				echo 'hello buildtriger'
+				echo 'hello buildtriger 2'
 			}
 		}
 	}
