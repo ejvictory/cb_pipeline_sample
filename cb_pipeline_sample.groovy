@@ -1,9 +1,9 @@
 pipeline{
 	agent any
 	stages{
-		stage('hello buildtriger'){
+		stage('build'){
 			steps{
-				echo 'hello buildtriger 2'
+				echo 'build .... '
 			}
 		}
 	}
